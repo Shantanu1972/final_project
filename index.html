@@ -1,0 +1,136 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyze Comments, Summarize Videos</title>
+    <style>
+      body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+    }
+    
+    .navbar {
+      background-color: #ff0000;
+      overflow: hidden;
+    }
+    
+    .navbar a {
+      float: left;
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    
+    .navbar a:hover {
+      background-color: #cc0000;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px auto;
+      max-width: 1200px;
+      padding: 0 20px;
+    }
+    
+    .textbox {
+      width: 45%;
+      padding: 20px;
+      background-color: #ffcccc;
+      border-radius: 10px;
+    }
+    
+    .image {
+      width: 45%;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .btn-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .btn {
+      display: inline-block;
+      background-color: #ff0000;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      margin: 10px;
+      transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+      background-color: #cc0000;
+    }
+    </style>
+  </head>
+  <body>
+
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a> 
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="container">
+    <div class="textbox">
+      <h2>TIMESAVER</h2>
+      <p>Welcome to YouTube Insight We understand that your time is valuable, which is why we offer efficient and time-saving solutions to meet your needs. Whether you're looking for Analyze Comments, Summarize Videos, our streamlined process ensures that you can achieve your goals quickly and effectively.</p>
+    </div> 
+    <div class="image">
+      <img src="/templates/img/clock.jpg" alt="Placeholder Image">
+    </div>
+  </div>
+  <div class="container">
+      <div class="textbox">
+        <h2>Comment Analysis</h2>
+        <p> Our advanced algorithms scour through the comments section of YouTube videos to provide you with comprehensive insights. From sentiment analysis to keyword extraction, we deliver a detailed breakdown of the conversations happening around the videos you love.</p>
+      </div>
+      <div class="image">
+        <img src="/templates/img/analysis2.jpg  " alt="Placeholder Image">
+      </div>
+    </div>
+    <div class="container">
+      <div class="textbox">
+        <form action="/summary_index" method="post">
+        <p>To get Summarization of video : </p>
+      </div>
+      <button onclick="location.href='/templates/index_c.html'">Press Here</button>
+    </form>
+    </div>
+    
+    <div class="container">
+      <div class="textbox">
+        <form action="/comment_index" method="post">
+        <p>For analysis of comment :</p>
+      </div>
+      <button onclick="location.href='/final_project/templates/index_s.html'">Press Here</button>
+    </form>
+    </div>
+    
+ 
+  <div class=>
+      <div class="image">
+      <img src="/templates/img/thank.gif" alt="Placeholder Image" aria-label="center">
+      </div>
+    </div>
+
+  </body>
+  </html>
